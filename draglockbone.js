@@ -116,7 +116,7 @@ class AutoLockAndDragHeadSystem {
         this.lockToHead();
         this.lastLockTime = Date.now();
       }
-      setTimeout(loop, 16); // ~60fps
+      setTimeout(loop, 8); // ~60fps
     };
     loop();
   }
